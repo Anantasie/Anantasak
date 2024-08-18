@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าเว็บส่วนตัวของคุณ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            background: linear-gradient(to right, #eeb853, #f12d4e);
+            border-radius: 100px;
+            overflow: hidden;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .left {
+            flex: 1;
+            background-color: #3f3d3d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1px;
+        }
+        .left img {
+            max-width: 150%;
+            border-radius: 100px;
+        }
+        .right {
+            flex: 1;
+            padding: 40px;
+            background-color: #3f3d3d;
+            color: #ffffff;
+        }
+        .right h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+        }
+        .right p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .right a {
+            display: block;
+            background-color: #fff;
+            color: #000000;
+            text-align: center;
+            padding: 15px;
+            border-radius: 80px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .right a:hover {
+            border-color: #ffffff;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="Guy.jpg" alt="Profile Image">
+        </div>
+        <div class="right">
+            <h1>ANANTASAK AEKJEEN</h1>
+            <p>สวัสดีครับผมชื่อ นาย อนันตศักดิ์ เอกจีน</p>
+            <a href="Profile.html" target="_blank">Profile</a>
+            <a href="Experience.html" target="_blank">Experience</a>
+            <a href="Project.html" target="_blank">Project</a>
+            <a href="Contact.html"target="_blank">Contact</a>   
+        </div>
+    </div>
+
+</body>
+</html>
